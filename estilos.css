@@ -239,6 +239,12 @@ h1 {
     min-height: 500px;
 }
 
+.footer-logo {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+}
+
 .footer-texto {
     font-size: 1.5rem;
     padding: 20px;
@@ -256,8 +262,80 @@ h1 {
     margin: 10px;
     border: 2px solid aliceblue;
     border-radius: 50%;
+    transition: all 0.2s ease-in;
 }
 
+.iconos-redes-sociales i {
+    color: aliceblue;
+    font-size: 1.5rem;
+    transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+    background-color: aliceblue;
+    border: 2px solid rgb(5, 5, 41);
+}
+
+.iconos-redes-sociales a:hover i {
+    color: rgb(5, 5, 41)
+}
+
+/*Contacto*/
+
+.contacto .container {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+}
+
+.contacto .rectangulo {
+    margin: -5rem;
+    background-color: #584e4e;
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px aliceblue;
+}
+
+.contacto .row {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto .descripcion {
+    color: aliceblue;
+    font-size: 1.2rem;
+}
+
+.contacto button {
+    color: aliceblue;
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid aliceblue;
+    padding: 1.25em 2em;
+    margin: 10px;
+    border-radius: 100px;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover {
+    background-color: aliceblue;
+    color: rgb(5, 5, 41);
+}
+
+.contacto button i {
+    color: aliceblue;
+    font-size: 1.3rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.contacto button:hover i {
+    color: rgb(5, 5, 41);
+}
+
+.foto3 {
+    width: 500px;
+    height: 300px;
+}
 
 
 
