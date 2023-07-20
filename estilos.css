@@ -289,7 +289,7 @@ h1 {
 }
 
 .contacto .rectangulo {
-    margin: -5rem;
+    margin-top: -5rem;
     background-color: #584e4e;
     border-radius: 10px;
     box-shadow: 0px 1px 4px 1px aliceblue;
