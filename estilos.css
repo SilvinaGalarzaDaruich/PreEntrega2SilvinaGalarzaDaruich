@@ -27,6 +27,7 @@ section {
 h1 {
     font-size: 2.5rem;
     font-family: 'Pacifico', cursive;
+    text-align: center;
 }
 
 .seccion-oscura {
@@ -335,6 +336,14 @@ h1 {
 .foto3 {
     width: 500px;
     height: 300px;
+    position: center;
+}
+
+.texto-novedades {
+    font-size: 5rem;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-family: 'Caveat', cursive;
 }
 
 
